@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mision {
+    font-size: 18px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.mision.completada {
+    text-decoration: line-through;
+    color: green;
+}

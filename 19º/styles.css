@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#anillos {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.anillo {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.anillo:hover {
+    transform: scale(1.1);
+}
+
+#mensaje {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}

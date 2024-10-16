@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+#mapaTierraMedia {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-image: url('https://m.media-amazon.com/images/I/718b9hBS4AL.jpg');
+    background-size: cover;
+    margin: 20px auto;
+    border: 2px solid #000;
+}
+.reino {
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(129, 170, 62, 0.8);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+#mordor {
+    top: 70%;
+    left: 70%;
+}
+#rohan {
+    top: 60%;
+    left: 50%;
+}
+#gondor {
+    top: 75%;
+    left: 45%;
+}
