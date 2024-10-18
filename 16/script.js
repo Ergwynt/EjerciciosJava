@@ -6,7 +6,7 @@ btnVerificar.addEventListener('click', function() {
     const password = inputPassword.value;
     
     if (password === "Vengadores") {
-        mensaje.textContent = "Assemble!";
+        mensaje.textContent = "¡Reunios!";
         mensaje.style.color = "green";
     } else {
         mensaje.textContent = "Contraseña incorrecta. Intenta de nuevo.";
