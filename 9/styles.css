@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e8e8e8;
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 32px;
+    color: #3D5AFE;
+    text-align: center;
+}
+
+#escudo {
+    width: 180px;
+    cursor: pointer;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 50%;
+    border: 3px solid #3D5AFE;
+}
+
+#escudo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#escudo:active {
+    transform: scale(0.95);
+    transition: transform 0.1s;
+}
